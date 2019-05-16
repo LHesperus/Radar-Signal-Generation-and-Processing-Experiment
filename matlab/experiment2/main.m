@@ -71,7 +71,7 @@ IQ_D=IQ_ddc(1:D:end);
 PC_fil=conj(IQ_D);                   % h of pulse compression
 PC_out=conv(PC_fil,IQ_D);
 PC_len=length(PC_out);
-t = (0:(PC_len-1))/fs*D;
+t = (-PC_len/2:(PC_len/2-1))/fs*D;
 figure
 plot(t,10*log10(abs(PC_out)/max(abs(PC_out))));
 zoom xon; grid on; 
