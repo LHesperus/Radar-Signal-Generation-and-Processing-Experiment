@@ -14,9 +14,19 @@ NCO_Q=-b*sin(2*pi*fc*t+phase2);
 y_i=NCO_I.*in;
 y_q=NCO_Q.*in;
 IQ_nco=y_i+y_q*j;
-[b,a] = butter(f_order,2*fpass/fs,'low');
-figure
-freqz(b,a)
-I = filter(b,a,y_i);
-Q = filter(b,a,y_q);
+%[b,a] = butter(f_order,2*fpass/fs,'low');
+%figure
+%freqz(b,a)
+%I = filter(b,a,y_i);
+%Q = filter(b,a,y_q);
+
+
+filter_coff=fir1(f_order,2*fpass/fs);
+I=conv(y_i,filter_coff);
+I=I./max(abs(I));
+I=I(length(filter_coff):end);
+Q=conv(y_q,filter_coff);
+Q=Q./max(abs(Q));
+Q=Q(length(filter_coff):end);
+freqz(filter_coff)
 end

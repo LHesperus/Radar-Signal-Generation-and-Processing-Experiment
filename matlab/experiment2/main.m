@@ -37,7 +37,7 @@ title('Phase spectrum of LFM (IF)');xlabel('frequency/Hz');ylabel('angle(degree)
 % DDC (NCO  Lowpass Filter and Down sample)
 f_nco=fc;                       % NCO frequency
 D=10;                           %D Sampling ratio
-f_order=10;                     % lowpass filter order
+f_order=63;                     % lowpass filter order
 fpass=fc;                       % pass freq
 [I_ddc,Q_ddc,IQ_NCO]=DDC_filter(fs,f_nco,fpass,f_order,I,1,1,0,0);
 figure
@@ -78,4 +78,7 @@ zoom xon; grid on;
 axis([min(t) max(t) -60 0]) 
 title('Pulse Compression Result');xlabel('time/s');ylabel('Normalized amplitude(dB)')
 
-
+figure
+f=(-PC_len/2:PC_len/2-1)*(fs/D/PC_len);
+plot(f,abs(fftshift(fft(PC_out))));
+title('spectrum LFM after Pulse Compression');xlabel('frequency/Hz');ylabel('Normalized amplitude(dB)')

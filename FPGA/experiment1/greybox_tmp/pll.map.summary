@@ -1,0 +1,15 @@
+Analysis & Synthesis Status : Successful - Tue May 21 17:34:19 2019
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : pll
+Top-level Entity Name : pll
+Family : Stratix II
+Logic utilization : N/A
+    Combinational ALUTs : 0
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 2
+Total virtual pins : 0
+Total block memory bits : 0
+DSP block 9-bit elements : 0
+Total PLLs : 1
+Total DLLs : 0

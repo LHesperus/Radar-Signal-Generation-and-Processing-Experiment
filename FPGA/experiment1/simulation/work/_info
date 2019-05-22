@@ -1,0 +1,1627 @@
+m255
+K3
+13
+cModel Technology
+Z0 dG:\workspace\github\Design-of-The-Best-Signal-Receivers-\myFPGA\simulation
+T_opt
+VXDWZn1@G6hzCJV?4XUP1U0
+04 13 4 work experiment_tb fast 0
+Z1 =1-3c970e1f2f2d-5ce3f4e8-19-628
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 n@_opt
+Z4 OL;O;10.0c;49
+Z5 dG:\workspace\github\Design-of-The-Best-Signal-Receivers-\myFPGA\simulation
+va_graycounter
+Z6 I`SHI3FP3E3DXXf_G27Pc^2
+Z7 VDf]LUSeG959GAjb>XD]GQ3
+Z8 dG:\workspace\github\Radar-Signal-Generation-and-Processing-Experiment\FPGA\experiment1\simulation
+Z9 w1309781340
+Z10 8G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/simulation/altera_mf.v
+Z11 FG:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/simulation/altera_mf.v
+Z12 L0 48603
+Z13 OL;L;10.0c;49
+r1
+31
+Z14 !s108 1558429117.682000
+Z15 !s107 G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/simulation/altera_mf.v|
+Z16 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/simulation/altera_mf.v|
+Z17 !s102 -nocovercells
+Z18 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z19 !s100 >cNXlNL8]X]AbgD^BPX;91
+!s85 0
+valt3pram
+Z20 IU>F^<@]dCl^BD2o1A1IK<2
+Z21 Van=jdh<WnkfkAC7SnL9Nj2
+R8
+R9
+R10
+R11
+Z22 L0 46806
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z23 !s100 `>9TKcbKdMCCScL>o9WZY2
+!s85 0
+valt_aeq_s4
+Z24 IaaM843HXPdOJHlafZfZ`@0
+Z25 V@E5j__dc@^a;@@8RaPH0c3
+R8
+R9
+R10
+R11
+Z26 L0 49456
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z27 !s100 8NE7heZ5k>FiA>nlKzFh<1
+!s85 0
+valt_cal
+Z28 I>L4fA0hh6SQXZZZ5l3W@A1
+Z29 VRXTXX5n6SY=Rhi@dnZVSX1
+R8
+R9
+R10
+R11
+Z30 L0 49023
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z31 !s100 BaogO@ghm_`G1CV<jEJV@3
+!s85 0
+valt_cal_c3gxb
+Z32 IbeL4=0JN3LRVn[SUG=WFh3
+Z33 V?If`n[=Fh[^b?ET:b4G1z0
+R8
+R9
+R10
+R11
+Z34 L0 49250
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z35 !s100 12nmKnDS:_^QY9H5XdlO]3
+!s85 0
+valt_cal_mm
+Z36 IJA60Q@RiIj`8eT9c1^=I50
+Z37 V09mcgZmzPW1:KRk0njHzB2
+R8
+R9
+R10
+R11
+Z38 L0 49125
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z39 !s100 PE>o__@j41TaCD[NXPg?m3
+!s85 0
+valt_cal_sv
+Z40 IQ8^jh[XYkOdf8MAZ:kMi?0
+Z41 V`z;WaCT?dR=Dd7U83UPWd1
+R8
+R9
+R10
+R11
+Z42 L0 49350
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z43 !s100 9LOJ:im:79eLTd[n5^S?^0
+!s85 0
+valt_dfe
+Z44 IdZ_J29ARa><n>:A6Ch3FO1
+Z45 VaU<RIJXkH24NzlzZAAE?L1
+R8
+R9
+R10
+R11
+Z46 L0 49833
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z47 !s100 4YAP@F]O8:?AkQ=W9@PMb0
+!s85 0
+valt_eyemon
+Z48 ITSimE=I_eQiBSKIk8Pn?W0
+Z49 V`W64FX3B^;l_=:?DO8e^G3
+R8
+R9
+R10
+R11
+Z50 L0 49553
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z51 !s100 Z4Mh1eNVMW@VXXAAz6bUg3
+!s85 0
+valtaccumulate
+Z52 I@7HH30ZmZldMioXYELV2J2
+Z53 V_E2Z6Ili6zhzh0_[KCUQK3
+R8
+R9
+R10
+R11
+Z54 L0 31260
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z55 !s100 Y<;ac1NEBP?;L]J5BScWN2
+!s85 0
+valtclklock
+Z56 I4J0TBB`PhS^ij6bV7N6;01
+Z57 V7Vi>bi2@bRT@md[U3NeQO1
+R8
+R9
+R10
+R11
+Z58 L0 41830
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z59 !s100 g>@D;ElNIzdF9P9geA=hb0
+!s85 0
+valtddio_bidir
+Z60 I5??D:WdT=kFb]0^jbib1Y0
+Z61 VZ^GYY?k[6Ji8DUNDflFS@3
+R8
+R9
+R10
+R11
+Z62 L0 43267
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z63 !s100 N;BzEUA:bbYYJ[mVg]7ja2
+!s85 0
+valtddio_in
+Z64 IOGPDe2L^HI@>bT<ii[>ZT1
+Z65 VHM]GLg3Gf96Y=OU_R;Ek43
+R8
+R9
+R10
+R11
+Z66 L0 42756
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z67 !s100 63`iNG1X:fULOdblc5[eU3
+!s85 0
+valtddio_out
+Z68 IUB;CI`Bi^a8C6M8jaSOcE2
+Z69 VMMOQhNXJH2lD2aVj=_^:K0
+R8
+R9
+R10
+R11
+Z70 L0 43019
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z71 !s100 M141:Gon8=zPImXe[ia@_0
+!s85 0
+valtdpram
+Z72 I:L5=[iWA5:[`@;z_zdNH]2
+Z73 V<5YIPo=OUk>mU@0?0YDEE1
+R8
+R9
+R10
+R11
+Z74 L0 43406
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z75 !s100 PS`^LiV:kC3OoZGHfY2KH3
+!s85 0
+vALTERA_DEVICE_FAMILIES
+Z76 VQ9;YfM0O8T<kA:7iO^6?T3
+r1
+31
+Z77 Iime`g8chC`E6hgb4NV;EG3
+R8
+R9
+R10
+R11
+Z78 L0 1356
+R13
+R14
+R15
+R16
+R17
+R18
+Z79 n@a@l@t@e@r@a_@d@e@v@i@c@e_@f@a@m@i@l@i@e@s
+Z80 !s100 <So13>IBL]0Uj^d<]8[Re2
+!s85 0
+vALTERA_MF_HINT_EVALUATION
+Z81 Ikf1f4o:5gIIfjC7f=3K0F0
+Z82 V[TNbJ9iHGC?N;=65V>b_Z0
+R8
+R9
+R10
+R11
+Z83 L0 1234
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z84 n@a@l@t@e@r@a_@m@f_@h@i@n@t_@e@v@a@l@u@a@t@i@o@n
+Z85 !s100 zSN8jDBP@E6M]DZfl2P2n1
+!s85 0
+vALTERA_MF_MEMORY_INITIALIZATION
+Z86 VdGgz5CJfH?XAb0VYP<f=T2
+r1
+31
+Z87 IbgTI9bigdcBUignQNc:i02
+R8
+R9
+R10
+R11
+L0 71
+R13
+R14
+R15
+R16
+R17
+R18
+Z88 n@a@l@t@e@r@a_@m@f_@m@e@m@o@r@y_@i@n@i@t@i@a@l@i@z@a@t@i@o@n
+Z89 !s100 6YhAI??_5W;[Ff`JYjCbU2
+!s85 0
+valtera_std_synchronizer
+Z90 I4Xzj`k6^6;=GW4[>Y8Ezj0
+Z91 VhR:b7iYB2>`BUe[;KLU_X1
+R8
+R9
+R10
+R11
+Z92 L0 48829
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z93 !s100 TZC4W?TBghCP[K=^zkS1D1
+!s85 0
+valtera_std_synchronizer_bundle
+Z94 I:Eo>6:]_di^;8JESgaIRF3
+Z95 V_Ic[PWl9n@Z`fX2[dFD`41
+R8
+R9
+R10
+R11
+Z96 L0 48988
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z97 !s100 1hH98J@Kb<9=T>]kMN3XQ2
+!s85 0
+valtfp_mult
+Z98 I]^FTT0MXf8G4h3Lo[YM8Z3
+Z99 VWz]bAzTDMN3A[X>3L[JQ@0
+R8
+R9
+R10
+R11
+Z100 L0 40943
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z101 !s100 U0zT@2NL:inzAj>oYZhjd0
+!s85 0
+valtlvds_rx
+Z102 Im7PQP[J6Tb?28R6o9<1V<2
+Z103 V<fYIRa;UD79E4k4lY]`eR2
+R8
+R9
+R10
+R11
+Z104 L0 23552
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z105 !s100 CV5lMb;>a5i[EQnh@BYE03
+!s85 0
+valtlvds_tx
+Z106 InMadHkYA3QoV<5[`17aF30
+Z107 VdKVNGEmeEC<C^iNjdHbRR1
+R8
+R9
+R10
+R11
+Z108 L0 27079
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z109 !s100 7E[VJ0MNTNNF<zOBc@K3>1
+!s85 0
+valtmult_accum
+Z110 IhkRO0^nhMd?H7lX<R=2:V2
+Z111 VmM2jAg@a=g3VfEfVWcQSU1
+R8
+R9
+R10
+R11
+Z112 L0 31502
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z113 !s100 7PGn8HbNGi`_lOHaG2AU?1
+!s85 0
+valtmult_add
+Z114 IHL>1[KEgV2<6l7GgQVb0Z2
+Z115 Vm<ajz5>k`3k9[3HWhWd?T3
+R8
+R9
+R10
+R11
+Z116 L0 33691
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z117 !s100 eO7324@^c6D2YFg92lP7f2
+!s85 0
+valtparallel_flash_loader
+Z118 IFgZzazSzmHVOB@mW6l^O@0
+Z119 VhRj60aPV;na]knXo^RK_41
+R8
+R9
+R10
+R11
+Z120 L0 51710
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z121 !s100 L?W6KCYd0Y`a]@DJE;9E_2
+!s85 0
+valtpll
+Z122 IYG^Ia=SiUf5K_NUQQ>=K=3
+Z123 V1]6ZE4bASeVHoDRB8`Pz_0
+R8
+R9
+R10
+R11
+Z124 L0 21540
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z125 !s100 bDQ1Ha0L=DF5V;>R=jX2U0
+!s85 0
+valtserial_flash_loader
+Z126 I5iMh<5FRKzhdI:4h@6bj93
+Z127 Vn]I4bMI:Mz0G52=X^7eRQ1
+R8
+R9
+R10
+R11
+Z128 L0 51823
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z129 !s100 W495>K6OW=PMR0n6A8WRV3
+!s85 0
+valtshift_taps
+Z130 I5;Gl[F>FZ3Ai:7CB=[GTf0
+Z131 V5db_IiOi7Ma]:;XkhY@Hi3
+R8
+R9
+R10
+R11
+Z132 L0 48470
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z133 !s100 16RKCRXb^23Qlgf]]NGC]2
+!s85 0
+valtsource_probe
+Z134 Ibk>2mQD8[jg^g>U:ZlE^n3
+Z135 VVNX2ObbQVS:4=J>1JXzQg1
+R8
+R9
+R10
+R11
+Z136 L0 51933
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z137 !s100 bCghG;h9bJG3a[d`@4HfU0
+!s85 0
+valtsqrt
+Z138 IogX8NTk2o99m;Oj_e[Y__3
+Z139 VTeVnDQ_dB9^_a5;a197Xn3
+R8
+R9
+R10
+R11
+Z140 L0 41628
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z141 !s100 hHgcmFIZzDTfOgomLK8bZ1
+!s85 0
+valtsquare
+Z142 IZSoYj>2fGULWYQIW_>B6S0
+Z143 VoBmhAmkLg^P>aUQO?k`H31
+R8
+R9
+R10
+R11
+Z144 L0 48694
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z145 !s100 `5=cNj?SIfc<zWf^0hCBi2
+!s85 0
+valtstratixii_oct
+Z146 IclXJI61ZWb_g[eIPDJ@GH1
+Z147 V?S_nHHnOUMZJ@SDT=?H]o0
+R8
+R9
+R10
+R11
+Z148 L0 51694
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z149 !s100 fmgVl;?FdXhl`PDS@D]7K1
+!s85 0
+valtsyncram
+Z150 V6mo5i7Om9oQzKd8c1MY;l1
+r1
+31
+Z151 IHIe4cd^cLW^IBl[mkaW;J1
+R8
+R9
+R10
+R11
+Z152 L0 43939
+R13
+R14
+R15
+R16
+R17
+R18
+Z153 !s100 zCd7<:6maXIj0ZEMmz2E72
+!s85 0
+varm_m_cntr
+Z154 I:40jaPCBPfZdjc9Z8]j[=1
+Z155 VnZ7bTfk5X@6QmGaNoIOHO1
+R8
+R9
+R10
+R11
+Z156 L0 6269
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z157 !s100 Do>2cDfC2lUM3<nO0hVSN3
+!s85 0
+varm_n_cntr
+Z158 IH0A3:`[eGLBjX>Toc3Rd[1
+Z159 V@_zlT2DBKV43W5lIQ08O:0
+R8
+R9
+R10
+R11
+Z160 L0 6349
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z161 !s100 n[9FUQlMR@<dN3Q8TQSe91
+!s85 0
+varm_scale_cntr
+Z162 IY9T:ICFoT24oU:Y^]PWn72
+Z163 VXREJKCNbUEi[38_3KRk5Y1
+R8
+R9
+R10
+R11
+Z164 L0 6431
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z165 !s100 Kn;35W[Y95[ocb5F^GFd02
+!s85 0
+vcda_m_cntr
+Z166 IoacjM>Vji`VPeTG9lmSlk0
+Z167 V;Zbk3ONaD><RF`o<@o<ii0
+R8
+R9
+R10
+R11
+Z168 L0 14208
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z169 !s100 _;ojPC>b@d?a@80nohIm81
+!s85 0
+vcda_n_cntr
+Z170 Idogf]EC8mcJaNdMIo25<F0
+Z171 VSZ:RS?[@mA;M4Im<[m?9>2
+R8
+R9
+R10
+R11
+Z172 L0 14289
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z173 !s100 kR:HfnKVJ`bdIcmW]B3`g1
+!s85 0
+vcda_scale_cntr
+Z174 I8dCiX;NIUeK=kjho?FoKB2
+Z175 VS<5Xi@4Ba>4H^82]e]BXQ0
+R8
+R9
+R10
+R11
+Z176 L0 14360
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z177 !s100 7IVbKCM5X;o2YB1i^`X1R3
+!s85 0
+vcycloneiiigl_post_divider
+Z178 Iae[Q8Fi6^81mJ_g1R1ZZA1
+Z179 VE[DCIBKzdZ_5J1e=a>ciB3
+R8
+R9
+R10
+R11
+Z180 L0 18078
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z181 !s100 LE5^O=NEj:[f=U4bl1<:z0
+!s85 0
+vdcfifo
+Z182 IB4AjQ8zo34L8;DX9V6bz41
+Z183 VOzMi6nTjX3B;VkM]0i[Y80
+R8
+R9
+R10
+R11
+Z184 L0 31126
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z185 !s100 CjLH26c_odin:fNTH6aj^1
+!s85 0
+vdcfifo_async
+Z186 IW>XD5J7l<z634H::8GWhm3
+Z187 VKBT=[Raice54eLm;kWo7U2
+R8
+R9
+R10
+R11
+Z188 L0 29450
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z189 !s100 nEMN0:f3k2hcPEbR^HoJA2
+!s85 0
+vdcfifo_dffpipe
+Z190 I^C]:eYFWkf<d7M2OKXKbC0
+Z191 V[2]E0llHYReD`f3Q@PoUN1
+R8
+R9
+R10
+R11
+Z192 L0 29220
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z193 !s100 Con5h46ebh45f]dYfo<>81
+!s85 0
+vdcfifo_fefifo
+Z194 IINTQoQR[=kE<5PGU09e=30
+Z195 V@Q7OA=F^`dje0[SFMXkS11
+R8
+R9
+R10
+R11
+Z196 L0 29298
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z197 !s100 EK;gZlQCSB@cQAPkz4=e33
+!s85 0
+vdcfifo_low_latency
+Z198 I1Uh6ZooSZIn7lYKOWhCE53
+Z199 V<CRHBRZ3j3[A<XR=V5iM81
+R8
+R9
+R10
+R11
+Z200 L0 30241
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z201 !s100 B_mmC_X:k[7O]?Ln_;9Da0
+!s85 0
+vdcfifo_mixed_widths
+Z202 Idg^CGUHQ7n^F0aP>38d3=2
+Z203 V[ZTm]GBcl[z8k<MSC;SU72
+R8
+R9
+R10
+R11
+Z204 L0 30830
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z205 !s100 mng`VFYPl[1JK=?z=5c^k0
+!s85 0
+vdcfifo_sync
+Z206 IjM_3CI54f_9bA<zHJ1^S81
+Z207 VozISN2GIhM_G`e?:08V@@0
+R8
+R9
+R10
+R11
+Z208 L0 29936
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z209 !s100 FKWBSBSF<Yl08oaZWa7jo3
+!s85 0
+vdffp
+Z210 I40YYdTbgFd>7jX82BhHc92
+Z211 VheeUl3zRZ0fNAP7CaC4WR1
+R8
+R9
+R10
+R11
+Z212 L0 2047
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z213 !s100 KcG;c4BlfW;gGAz@EEWVD2
+!s85 0
+vdummy_hub
+Z214 IC>h4fN]WR:c9o5GFJBn_G1
+Z215 VoZ4KRLn6iG^^j8eOfh5`]3
+R8
+R9
+R10
+R11
+Z216 L0 51204
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z217 !s100 XWVl:n98DfT9EJVZ;KzJm0
+!s85 0
+vexperiment1
+Z218 IdjB>XliI`0g8I?dL`[J[o1
+Z219 VeVd3=hjij5j4XJ:ROfcR12
+R8
+Z220 w1558442843
+Z221 8G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/experiment1.v
+Z222 FG:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/experiment1.v
+L0 2
+R13
+r1
+31
+R17
+R18
+Z223 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/experiment1.v|
+Z224 !s100 aEI]c9<8@R1UooR>JdR[U2
+Z225 !s108 1558442945.068000
+Z226 !s107 G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/experiment1.v|
+!s85 0
+vexperiment_tb
+Z227 IDfV[5lmh@NXH7o<5d5>K63
+Z228 V8BCk[DjYDlCl=Nd5`mg[]3
+R8
+Z229 w1558443229
+Z230 8G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/simulation/experiment_tb.v
+Z231 FG:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/simulation/experiment_tb.v
+L0 2
+R13
+r1
+31
+R17
+R18
+Z232 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/simulation/experiment_tb.v|
+Z233 !s100 e^YL7XamS`zdclIC5:<da2
+!s85 0
+Z234 !s108 1558443237.269000
+Z235 !s107 G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/simulation/experiment_tb.v|
+vflexible_lvds_rx
+Z236 Ifhh1EHi4c=n_3oJ6zRIzd2
+Z237 VlRUL40907KXEJMR:c^AoB3
+R8
+R9
+R10
+R11
+Z238 L0 25581
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z239 !s100 7]TM`mEj[FPJjK7i1U:ma2
+!s85 0
+vflexible_lvds_tx
+Z240 I[Il5<ZTc^T^O6_OWZAeCB0
+Z241 VgXmTNzk=Z0i;64]lbL>Ej3
+R8
+R9
+R10
+R11
+Z242 L0 28660
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z243 !s100 WnmPLnO04Dd_;C:?1NVzJ3
+!s85 0
+vjtag_tap_controller
+Z244 IZICe^lUen`_GzOZ^AhV`N0
+Z245 Vmnmn`[hUOMH6AK2I_QN8Q1
+R8
+R9
+R10
+R11
+Z246 L0 50747
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z247 !s100 k3mYIV;noNW7]JT:=7daJ2
+!s85 0
+vlcell
+Z248 I`U`DTgWboVPJ?l>[bnWUg0
+Z249 VJ?L2VaGMcgJV7T`@^5DkR1
+R8
+R9
+R10
+R11
+L0 34
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z250 !s100 0iHR7LCSWH`2lX8KA=J;13
+!s85 0
+vMF_cycloneiii_pll
+Z251 I2H_8SXYOlTNmL4B@gBVh11
+Z252 V8SACR3<jj>]mCQFb;Fhcz1
+R8
+R9
+R10
+R11
+Z253 L0 14487
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z254 n@m@f_cycloneiii_pll
+Z255 !s100 S1l=4OOUbB?3hUIC:nmSo1
+!s85 0
+vMF_cycloneiiigl_m_cntr
+Z256 I2YgGB[kO?PcMK0NWSzE0e0
+Z257 V3m_Jz6C;W8>1i>E5DR]XP2
+R8
+R9
+R10
+R11
+Z258 L0 17816
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z259 n@m@f_cycloneiiigl_m_cntr
+Z260 !s100 M]7HCga4ghT8Zn@mPd5272
+!s85 0
+vMF_cycloneiiigl_n_cntr
+Z261 I_zQbbhT9R`[7HZR?ad[T:0
+Z262 VfUZ<Z;akRGDNQkBMOhdC51
+R8
+R9
+R10
+R11
+Z263 L0 17897
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z264 n@m@f_cycloneiiigl_n_cntr
+Z265 !s100 zTJ4b2I_4IiDMgPhF[D5:1
+!s85 0
+vMF_cycloneiiigl_pll
+Z266 IRKHkQ;1>`X7A6^8gYgmi30
+Z267 VX:XbK@6<Z8TFo`ZiKA`8b3
+R8
+R9
+R10
+R11
+Z268 L0 18167
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z269 n@m@f_cycloneiiigl_pll
+Z270 !s100 RkbZBFM[KidSMVcIiF3?60
+!s85 0
+vMF_cycloneiiigl_scale_cntr
+Z271 I3ih05f9UC>BJgiM>0j3LJ3
+Z272 V9Q2fNP0aT7@gU`>cZ`B^[1
+R8
+R9
+R10
+R11
+Z273 L0 17968
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z274 n@m@f_cycloneiiigl_scale_cntr
+Z275 !s100 oKVdMh:]Vo:NR<bOEHQ:C2
+!s85 0
+vMF_pll_reg
+Z276 I<cUib>0nPcn_`nfASGIkD1
+Z277 VNCKUEDQ^OBUgncngA<V;H2
+R8
+R9
+R10
+R11
+Z278 L0 2404
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z279 n@m@f_pll_reg
+Z280 !s100 k>Hed0^D[APkVCUOIEMEf1
+!s85 0
+vMF_stratix_pll
+Z281 I9ji8zzfo7eSUjHJ2136^50
+Z282 V<Q6_>0?hlOYD6Z>E5^II12
+R8
+R9
+R10
+R11
+Z283 L0 2463
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z284 n@m@f_stratix_pll
+Z285 !s100 KG]_6WSLjgZWPf`nfGGjQ3
+!s85 0
+vMF_stratixii_pll
+Z286 I5N?4<PBXDfID:_`=0N53V1
+Z287 V]ZTC;GJ]^ZXMZmG8?R3E32
+R8
+R9
+R10
+R11
+Z288 L0 6554
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z289 n@m@f_stratixii_pll
+Z290 !s100 =Nhi:Z>^i?7KUhccKDL2d1
+!s85 0
+vMF_stratixiii_pll
+Z291 ICjMBMQlb3O3Yjj<O@L8ck2
+Z292 VPJ`;F;KLMG`Rme6?O:>0a3
+R8
+R9
+R10
+R11
+Z293 L0 10385
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z294 n@m@f_stratixiii_pll
+Z295 !s100 _PYij4I^lHUifJmMD1@@L0
+!s85 0
+vparallel_add
+Z296 I3>CLZ8]^o2n04l3H]Abi00
+Z297 VbbDK2gmh@AWdUES[Zi3TN0
+R8
+R9
+R10
+R11
+Z298 L0 47495
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z299 !s100 <KeMZZXC^GDIzN=nONQHJ3
+!s85 0
+vpll
+Z300 IjbZGjAlIX4mbZ3Vco=>gU1
+Z301 VzfkfP6a`93>j;B^ZKD1j91
+R8
+Z302 w1558431255
+Z303 8G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/pll.v
+Z304 FG:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/pll.v
+L0 39
+R13
+r1
+31
+R17
+R18
+Z305 !s100 zH3zodjgSRz@<=V[CBR6=2
+Z306 !s108 1558431467.135000
+Z307 !s107 G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/pll.v|
+Z308 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/pll.v|
+!s85 0
+vpll_iobuf
+Z309 IW[Pmd3;<YJIkPaoe0927f1
+Z310 VEGl7X@h1ghgJczPPMaRcj3
+R8
+R9
+R10
+R11
+Z311 L0 2080
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z312 !s100 QTkO5<TmGFgkNWZ=9fi3e1
+!s85 0
+vscfifo
+Z313 I3:[K9eR=>?70R=loTzH5d3
+Z314 VUMV6g0FCa0N3lFO1VmUAB1
+R8
+R9
+R10
+R11
+Z315 L0 47664
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z316 !s100 ngU0TcfR<UYF8nhKC6@lZ2
+!s85 0
+vsignal_gen
+Z317 I1`I4EPgK4jC[U;D;K3>kB1
+Z318 VlANQ]2:@NW327hR21XHd@3
+R8
+R9
+R10
+R11
+Z319 L0 50180
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z320 !s100 kfP]aCTh8B5nclkiG=CYj3
+!s85 0
+vsin256
+Z321 IelRDhZ0?aHZZi?gYiS3Da0
+Z322 VCF<GDUY4nTKLQQRYN`C]63
+R8
+Z323 w1558429533
+Z324 8G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/sin256.v
+Z325 FG:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/sin256.v
+L0 39
+R13
+r1
+31
+R17
+R18
+Z326 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/sin256.v|
+Z327 !s100 1m`8Ae0m@N`L`U==XN0cN2
+Z328 !s108 1558429615.716000
+Z329 !s107 G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/sin256.v|
+!s85 0
+vsin_2048
+Z330 IUKc4FgaA1i2H2GcQB5k:F0
+Z331 VPLC2?bZK:]U5j_E<B^5721
+R8
+Z332 w1558441619
+Z333 8G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/sin_2048.v
+Z334 FG:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/sin_2048.v
+L0 39
+R13
+r1
+31
+R17
+R18
+Z335 !s100 PZYAAlC`I<O7zeV@]2^H23
+Z336 !s108 1558441847.128000
+Z337 !s107 G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/sin_2048.v|
+Z338 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|G:/workspace/github/Radar-Signal-Generation-and-Processing-Experiment/FPGA/experiment1/sin_2048.v|
+!s85 0
+vsld_signaltap
+Z339 I`7]2:9D0MK?g3RG0l6Ho]3
+Z340 V_JQk5nE5WD?]hX7An^HMH2
+R8
+R9
+R10
+R11
+Z341 L0 51588
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z342 !s100 38RRB3WiB3<GhkcZf2b^Q2
+!s85 0
+vsld_virtual_jtag
+Z343 Ie0IIK_TmVfc32@Ko8Ai`U2
+Z344 Vf2g7oS=5=F3IO@[SB6kgz2
+R8
+R9
+R10
+R11
+Z345 L0 51461
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z346 !s100 71KS=KU?Il<HR=2n7`eL]1
+!s85 0
+vsld_virtual_jtag_basic
+Z347 IjY;IzO07XThCzWUMBlEKJ0
+Z348 VgN1]76z<g[F9Z_FM;6QOV2
+R8
+R9
+R10
+R11
+Z349 L0 51855
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z350 !s100 ^c6b89S@<X>`RDk`XoUgH1
+!s85 0
+vstratix_lvds_rx
+Z351 IYJ87h^iL7jP<^3DGRGnZl1
+Z352 V39zBWPn2G7n8FGOMRmNJB0
+R8
+R9
+R10
+R11
+Z353 L0 24744
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z354 !s100 WT?CGRVOh5Q@7DzMeiWD>1
+!s85 0
+vstratix_tx_outclk
+Z355 Im_[CV?:Ee38b2[VR7>XkY2
+Z356 Vh80DY6<NJ0Bn98@EoCo8n1
+R8
+R9
+R10
+R11
+Z357 L0 28452
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z358 !s100 7Ehc;dKNXoN52EdTRg6_z1
+!s85 0
+vstratixgx_dpa_lvds_rx
+Z359 I[IFcENB_@4=@QB58V2kcB2
+Z360 V`[XhBYMJchCjeXnWloPH;3
+R8
+R9
+R10
+R11
+Z361 L0 24852
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z362 !s100 E[`cVak1z@^LIY^2W>o=_2
+!s85 0
+vstratixii_lvds_rx
+Z363 IhRCTA22T6V93847f=Rg423
+Z364 V5D>4DFSRXh3=Nm=hc48Kd2
+R8
+R9
+R10
+R11
+Z365 L0 25255
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z366 !s100 Ca3<Q[k3djf?<><ciE:lc1
+!s85 0
+vstratixii_tx_outclk
+Z367 I]UlLf@ANKek8JAi?Imd:[2
+Z368 V=n_<[`Vzf2Rz<[OlZ?^mI1
+R8
+R9
+R10
+R11
+Z369 L0 28559
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z370 !s100 _N5Y173?1@0B9Ja^[LY8W3
+!s85 0
+vstratixiii_lvds_rx
+Z371 I@m[AkdDa[goGW^`<dgo5D3
+Z372 VLO3Ra9=EgO<6eFPEjV]nH2
+R8
+R9
+R10
+R11
+Z373 L0 26041
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z374 !s100 3[H9:k9`i`1J56Mk]RiXY3
+!s85 0
+vstratixiii_lvds_rx_channel
+Z375 IKaPaP^PA22zTN@mEe^jN81
+Z376 Vb9WlM?_jJhzeiMmSE;KQ73
+R8
+R9
+R10
+R11
+Z377 L0 26221
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z378 !s100 3k:[]_YCbCL0hV71PnEja1
+!s85 0
+vstratixiii_lvds_rx_dpa
+Z379 I?Heob1nOkKga:z:_`=gk03
+Z380 VenIPQShS6??nhY:JSTm8<3
+R8
+R9
+R10
+R11
+Z381 L0 26810
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z382 !s100 ATIiI9ChC4=e<Oe=n^]<z0
+!s85 0
+vstx_m_cntr
+Z383 IePg@GG7[Cd^RZbQAS=Ng83
+Z384 V:[2:D[_10ghn[bgc=CD302
+R8
+R9
+R10
+R11
+Z385 L0 2106
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z386 !s100 00C@]<Rgi^Z34JPG=QfcK1
+!s85 0
+vstx_n_cntr
+Z387 I>Z:]ENgj05=S7@Jkdb27G1
+Z388 V4CiQB5Uz?;=OULO:MD>Eo1
+R8
+R9
+R10
+R11
+Z389 L0 2184
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z390 !s100 mKfU[_RDZK3=49RC3I6ZI0
+!s85 0
+vstx_scale_cntr
+Z391 IFcX`@`H0PR3eO?:Jjo1NY2
+Z392 VG8KIUm2mDHoX1DjR8TDdJ1
+R8
+R9
+R10
+R11
+Z393 L0 2269
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z394 !s100 f_]QB0V;0;TIAQD8_N^2P1
+!s85 0
+vttn_m_cntr
+Z395 Ial`M`d@l=JoMeAz`COYQe3
+Z396 ViEB@`bJmQ[jz8=2kGYhDn3
+R8
+R9
+R10
+R11
+Z397 L0 10106
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z398 !s100 he47A??6]3glAN_Ek=XX[3
+!s85 0
+vttn_n_cntr
+Z399 I=L9G[Y?TdcEgif10G[QVZ3
+Z400 VWh8a]<5HCnf>2<AJGoZ2`0
+R8
+R9
+R10
+R11
+Z401 L0 10187
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z402 !s100 oG[`6L4]7>j?j^`nFhTJL0
+!s85 0
+vttn_scale_cntr
+Z403 IOOocGJ0=Hbi3U6gS0e>ZQ1
+Z404 VXPfdhMTXDmY9JYEiBjd?Q2
+R8
+R9
+R10
+R11
+Z405 L0 10258
+R13
+r1
+31
+R14
+R15
+R16
+R17
+R18
+Z406 !s100 >[=d=L3E[FIMMSj_oTAYj3
+!s85 0

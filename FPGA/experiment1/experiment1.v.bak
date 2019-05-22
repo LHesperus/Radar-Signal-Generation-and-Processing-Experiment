@@ -1,0 +1,20 @@
+module experiment1(
+input clk,
+
+output  [13:0]da_out
+);
+
+reg [7:0]  address=0;
+
+sin256 sin256_1(
+.address (address),
+.clock   (clk),
+.q       (da_out[11:0])
+);
+
+always@(posedge clk)
+begin
+	address<=address+1'b1;
+end
+
+endmodule

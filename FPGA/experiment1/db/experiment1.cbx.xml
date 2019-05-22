@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="experiment1">
+		<CBX_INST_ENTRY INSTANCE_NAME="|experiment1|sin_2048:sin_2048_1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_l871.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

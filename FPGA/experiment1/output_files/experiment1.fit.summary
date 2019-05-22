@@ -1,0 +1,17 @@
+Fitter Status : Successful - Tue May 21 20:57:46 2019
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : experiment1
+Top-level Entity Name : experiment1
+Family : Stratix II
+Device : EP2S90F1020I4
+Timing Models : Final
+Logic utilization : < 1 %
+    Combinational ALUTs : 12 / 72,768 ( < 1 % )
+    Dedicated logic registers : 10 / 72,768 ( < 1 % )
+Total registers : 10
+Total pins : 31 / 759 ( 4 % )
+Total virtual pins : 0
+Total block memory bits : 24,576 / 4,520,448 ( < 1 % )
+DSP block 9-bit elements : 0 / 384 ( 0 % )
+Total PLLs : 1 / 12 ( 8 % )
+Total DLLs : 0 / 2 ( 0 % )
