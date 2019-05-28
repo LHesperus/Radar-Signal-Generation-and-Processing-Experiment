@@ -1,0 +1,13 @@
+v1
+RAM_PACKING,0,M4K,2,2,TrueDual,0,0,100000000000,IF_LFM:ECHO|altsyncram:altsyncram_component|altsyncram_3ud1:auto_generated|q_a[0],
+RAM_PACKING,0,M4K,2,2,TrueDual,0,1,100000000000,IF_LFM:ECHO|altsyncram:altsyncram_component|altsyncram_3ud1:auto_generated|q_a[1],
+RAM_PACKING,1,M4K,2,2,TrueDual,0,0,100000000000,IF_LFM:ECHO|altsyncram:altsyncram_component|altsyncram_3ud1:auto_generated|q_a[2],
+RAM_PACKING,1,M4K,2,2,TrueDual,0,1,100000000000,IF_LFM:ECHO|altsyncram:altsyncram_component|altsyncram_3ud1:auto_generated|q_a[3],
+RAM_PACKING,2,M4K,2,2,TrueDual,0,0,100000000000,IF_LFM:ECHO|altsyncram:altsyncram_component|altsyncram_3ud1:auto_generated|q_a[4],
+RAM_PACKING,2,M4K,2,2,TrueDual,0,1,100000000000,IF_LFM:ECHO|altsyncram:altsyncram_component|altsyncram_3ud1:auto_generated|q_a[5],
+RAM_PACKING,3,M4K,2,2,TrueDual,0,0,100000000000,IF_LFM:ECHO|altsyncram:altsyncram_component|altsyncram_3ud1:auto_generated|q_a[6],
+RAM_PACKING,3,M4K,2,2,TrueDual,0,1,100000000000,IF_LFM:ECHO|altsyncram:altsyncram_component|altsyncram_3ud1:auto_generated|q_a[7],
+RAM_PACKING,4,M4K,2,2,TrueDual,0,0,100000000000,IF_LFM:ECHO|altsyncram:altsyncram_component|altsyncram_3ud1:auto_generated|q_a[8],
+RAM_PACKING,4,M4K,2,2,TrueDual,0,1,100000000000,IF_LFM:ECHO|altsyncram:altsyncram_component|altsyncram_3ud1:auto_generated|q_a[9],
+RAM_PACKING,5,M4K,2,2,TrueDual,0,0,100000000000,IF_LFM:ECHO|altsyncram:altsyncram_component|altsyncram_3ud1:auto_generated|q_a[10],
+RAM_PACKING,5,M4K,2,2,TrueDual,0,1,100000000000,IF_LFM:ECHO|altsyncram:altsyncram_component|altsyncram_3ud1:auto_generated|q_a[11],

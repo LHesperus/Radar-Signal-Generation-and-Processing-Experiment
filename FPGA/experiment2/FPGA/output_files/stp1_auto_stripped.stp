@@ -1,0 +1,386 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP3SE110 (0x021070DD)" sof_file="">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <signal_set global_temp="1" is_expanded="true" name="signal_set: 2019/05/23 17:35:13  #0">
+      <clock name="clk" polarity="posedge" tap_mode="classic"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="2048" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="ad_13_14[0]" tap_mode="classic"/>
+          <wire name="ad_13_14[1]" tap_mode="classic"/>
+          <wire name="ad_clk" tap_mode="classic"/>
+          <wire name="ad_out[0]" tap_mode="classic"/>
+          <wire name="ad_out[10]" tap_mode="classic"/>
+          <wire name="ad_out[11]" tap_mode="classic"/>
+          <wire name="ad_out[1]" tap_mode="classic"/>
+          <wire name="ad_out[2]" tap_mode="classic"/>
+          <wire name="ad_out[3]" tap_mode="classic"/>
+          <wire name="ad_out[4]" tap_mode="classic"/>
+          <wire name="ad_out[5]" tap_mode="classic"/>
+          <wire name="ad_out[6]" tap_mode="classic"/>
+          <wire name="ad_out[7]" tap_mode="classic"/>
+          <wire name="ad_out[8]" tap_mode="classic"/>
+          <wire name="ad_out[9]" tap_mode="classic"/>
+          <wire name="address[0]" tap_mode="classic"/>
+          <wire name="address[10]" tap_mode="classic"/>
+          <wire name="address[11]" tap_mode="classic"/>
+          <wire name="address[1]" tap_mode="classic"/>
+          <wire name="address[2]" tap_mode="classic"/>
+          <wire name="address[3]" tap_mode="classic"/>
+          <wire name="address[4]" tap_mode="classic"/>
+          <wire name="address[5]" tap_mode="classic"/>
+          <wire name="address[6]" tap_mode="classic"/>
+          <wire name="address[7]" tap_mode="classic"/>
+          <wire name="address[8]" tap_mode="classic"/>
+          <wire name="address[9]" tap_mode="classic"/>
+          <wire name="da_clk" tap_mode="classic"/>
+          <wire name="dac_14_15[0]" tap_mode="classic"/>
+          <wire name="dac_14_15[1]" tap_mode="classic"/>
+          <wire name="dac_in[0]" tap_mode="classic"/>
+          <wire name="dac_in[10]" tap_mode="classic"/>
+          <wire name="dac_in[11]" tap_mode="classic"/>
+          <wire name="dac_in[12]" tap_mode="classic"/>
+          <wire name="dac_in[13]" tap_mode="classic"/>
+          <wire name="dac_in[1]" tap_mode="classic"/>
+          <wire name="dac_in[2]" tap_mode="classic"/>
+          <wire name="dac_in[3]" tap_mode="classic"/>
+          <wire name="dac_in[4]" tap_mode="classic"/>
+          <wire name="dac_in[5]" tap_mode="classic"/>
+          <wire name="dac_in[6]" tap_mode="classic"/>
+          <wire name="dac_in[7]" tap_mode="classic"/>
+          <wire name="dac_in[8]" tap_mode="classic"/>
+          <wire name="dac_in[9]" tap_mode="classic"/>
+          <wire name="pwdn_adc" tap_mode="classic"/>
+          <wire name="sleep_dac" tap_mode="classic"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="ad_13_14[0]" tap_mode="classic"/>
+          <wire name="ad_13_14[1]" tap_mode="classic"/>
+          <wire name="ad_clk" tap_mode="classic"/>
+          <wire name="ad_out[0]" tap_mode="classic"/>
+          <wire name="ad_out[10]" tap_mode="classic"/>
+          <wire name="ad_out[11]" tap_mode="classic"/>
+          <wire name="ad_out[1]" tap_mode="classic"/>
+          <wire name="ad_out[2]" tap_mode="classic"/>
+          <wire name="ad_out[3]" tap_mode="classic"/>
+          <wire name="ad_out[4]" tap_mode="classic"/>
+          <wire name="ad_out[5]" tap_mode="classic"/>
+          <wire name="ad_out[6]" tap_mode="classic"/>
+          <wire name="ad_out[7]" tap_mode="classic"/>
+          <wire name="ad_out[8]" tap_mode="classic"/>
+          <wire name="ad_out[9]" tap_mode="classic"/>
+          <wire name="address[0]" tap_mode="classic"/>
+          <wire name="address[10]" tap_mode="classic"/>
+          <wire name="address[11]" tap_mode="classic"/>
+          <wire name="address[1]" tap_mode="classic"/>
+          <wire name="address[2]" tap_mode="classic"/>
+          <wire name="address[3]" tap_mode="classic"/>
+          <wire name="address[4]" tap_mode="classic"/>
+          <wire name="address[5]" tap_mode="classic"/>
+          <wire name="address[6]" tap_mode="classic"/>
+          <wire name="address[7]" tap_mode="classic"/>
+          <wire name="address[8]" tap_mode="classic"/>
+          <wire name="address[9]" tap_mode="classic"/>
+          <wire name="da_clk" tap_mode="classic"/>
+          <wire name="dac_14_15[0]" tap_mode="classic"/>
+          <wire name="dac_14_15[1]" tap_mode="classic"/>
+          <wire name="dac_in[0]" tap_mode="classic"/>
+          <wire name="dac_in[10]" tap_mode="classic"/>
+          <wire name="dac_in[11]" tap_mode="classic"/>
+          <wire name="dac_in[12]" tap_mode="classic"/>
+          <wire name="dac_in[13]" tap_mode="classic"/>
+          <wire name="dac_in[1]" tap_mode="classic"/>
+          <wire name="dac_in[2]" tap_mode="classic"/>
+          <wire name="dac_in[3]" tap_mode="classic"/>
+          <wire name="dac_in[4]" tap_mode="classic"/>
+          <wire name="dac_in[5]" tap_mode="classic"/>
+          <wire name="dac_in[6]" tap_mode="classic"/>
+          <wire name="dac_in[7]" tap_mode="classic"/>
+          <wire name="dac_in[8]" tap_mode="classic"/>
+          <wire name="dac_in[9]" tap_mode="classic"/>
+          <wire name="pwdn_adc" tap_mode="classic"/>
+          <wire name="sleep_dac" tap_mode="classic"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="ad_13_14[0]" tap_mode="classic"/>
+          <wire name="ad_13_14[1]" tap_mode="classic"/>
+          <wire name="ad_clk" tap_mode="classic"/>
+          <wire name="ad_out[0]" tap_mode="classic"/>
+          <wire name="ad_out[10]" tap_mode="classic"/>
+          <wire name="ad_out[11]" tap_mode="classic"/>
+          <wire name="ad_out[1]" tap_mode="classic"/>
+          <wire name="ad_out[2]" tap_mode="classic"/>
+          <wire name="ad_out[3]" tap_mode="classic"/>
+          <wire name="ad_out[4]" tap_mode="classic"/>
+          <wire name="ad_out[5]" tap_mode="classic"/>
+          <wire name="ad_out[6]" tap_mode="classic"/>
+          <wire name="ad_out[7]" tap_mode="classic"/>
+          <wire name="ad_out[8]" tap_mode="classic"/>
+          <wire name="ad_out[9]" tap_mode="classic"/>
+          <wire name="address[0]" tap_mode="classic"/>
+          <wire name="address[10]" tap_mode="classic"/>
+          <wire name="address[11]" tap_mode="classic"/>
+          <wire name="address[1]" tap_mode="classic"/>
+          <wire name="address[2]" tap_mode="classic"/>
+          <wire name="address[3]" tap_mode="classic"/>
+          <wire name="address[4]" tap_mode="classic"/>
+          <wire name="address[5]" tap_mode="classic"/>
+          <wire name="address[6]" tap_mode="classic"/>
+          <wire name="address[7]" tap_mode="classic"/>
+          <wire name="address[8]" tap_mode="classic"/>
+          <wire name="address[9]" tap_mode="classic"/>
+          <wire name="da_clk" tap_mode="classic"/>
+          <wire name="dac_14_15[0]" tap_mode="classic"/>
+          <wire name="dac_14_15[1]" tap_mode="classic"/>
+          <wire name="dac_in[0]" tap_mode="classic"/>
+          <wire name="dac_in[10]" tap_mode="classic"/>
+          <wire name="dac_in[11]" tap_mode="classic"/>
+          <wire name="dac_in[12]" tap_mode="classic"/>
+          <wire name="dac_in[13]" tap_mode="classic"/>
+          <wire name="dac_in[1]" tap_mode="classic"/>
+          <wire name="dac_in[2]" tap_mode="classic"/>
+          <wire name="dac_in[3]" tap_mode="classic"/>
+          <wire name="dac_in[4]" tap_mode="classic"/>
+          <wire name="dac_in[5]" tap_mode="classic"/>
+          <wire name="dac_in[6]" tap_mode="classic"/>
+          <wire name="dac_in[7]" tap_mode="classic"/>
+          <wire name="dac_in[8]" tap_mode="classic"/>
+          <wire name="dac_in[9]" tap_mode="classic"/>
+          <wire name="pwdn_adc" tap_mode="classic"/>
+          <wire name="sleep_dac" tap_mode="classic"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <unified_setup_data_view>
+          <node name="ad_13_14" order="msb_to_lsb" type="input pin">
+            <node data_index="1" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_13_14[1]" storage_index="1" tap_mode="classic" trigger_index="1" type="input pin"/>
+            <node data_index="0" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_13_14[0]" storage_index="0" tap_mode="classic" trigger_index="0" type="input pin"/>
+          </node>
+          <node data_index="2" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_clk" storage_index="2" tap_mode="classic" trigger_index="2" type="output pin"/>
+          <node name="ad_out" order="msb_to_lsb" type="input pin">
+            <node data_index="5" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[11]" storage_index="5" tap_mode="classic" trigger_index="5" type="input pin"/>
+            <node data_index="4" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[10]" storage_index="4" tap_mode="classic" trigger_index="4" type="input pin"/>
+            <node data_index="14" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[9]" storage_index="14" tap_mode="classic" trigger_index="14" type="input pin"/>
+            <node data_index="13" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[8]" storage_index="13" tap_mode="classic" trigger_index="13" type="input pin"/>
+            <node data_index="12" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[7]" storage_index="12" tap_mode="classic" trigger_index="12" type="input pin"/>
+            <node data_index="11" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[6]" storage_index="11" tap_mode="classic" trigger_index="11" type="input pin"/>
+            <node data_index="10" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[5]" storage_index="10" tap_mode="classic" trigger_index="10" type="input pin"/>
+            <node data_index="9" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[4]" storage_index="9" tap_mode="classic" trigger_index="9" type="input pin"/>
+            <node data_index="8" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[3]" storage_index="8" tap_mode="classic" trigger_index="8" type="input pin"/>
+            <node data_index="7" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[2]" storage_index="7" tap_mode="classic" trigger_index="7" type="input pin"/>
+            <node data_index="6" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[1]" storage_index="6" tap_mode="classic" trigger_index="6" type="input pin"/>
+            <node data_index="3" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[0]" storage_index="3" tap_mode="classic" trigger_index="3" type="input pin"/>
+          </node>
+          <node name="address" order="msb_to_lsb" type="register">
+            <node data_index="17" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[11]" storage_index="17" tap_mode="classic" trigger_index="17" type="register"/>
+            <node data_index="16" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[10]" storage_index="16" tap_mode="classic" trigger_index="16" type="register"/>
+            <node data_index="26" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[9]" storage_index="26" tap_mode="classic" trigger_index="26" type="register"/>
+            <node data_index="25" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[8]" storage_index="25" tap_mode="classic" trigger_index="25" type="register"/>
+            <node data_index="24" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[7]" storage_index="24" tap_mode="classic" trigger_index="24" type="register"/>
+            <node data_index="23" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[6]" storage_index="23" tap_mode="classic" trigger_index="23" type="register"/>
+            <node data_index="22" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[5]" storage_index="22" tap_mode="classic" trigger_index="22" type="register"/>
+            <node data_index="21" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[4]" storage_index="21" tap_mode="classic" trigger_index="21" type="register"/>
+            <node data_index="20" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[3]" storage_index="20" tap_mode="classic" trigger_index="20" type="register"/>
+            <node data_index="19" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[2]" storage_index="19" tap_mode="classic" trigger_index="19" type="register"/>
+            <node data_index="18" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[1]" storage_index="18" tap_mode="classic" trigger_index="18" type="register"/>
+            <node data_index="15" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[0]" storage_index="15" tap_mode="classic" trigger_index="15" type="register"/>
+          </node>
+          <node data_index="27" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="da_clk" storage_index="27" tap_mode="classic" trigger_index="27" type="output pin"/>
+          <node name="dac_14_15" order="msb_to_lsb" type="output pin">
+            <node data_index="29" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_14_15[1]" storage_index="29" tap_mode="classic" trigger_index="29" type="output pin"/>
+            <node data_index="28" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_14_15[0]" storage_index="28" tap_mode="classic" trigger_index="28" type="output pin"/>
+          </node>
+          <node name="dac_in" order="msb_to_lsb" type="output pin">
+            <node data_index="34" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[13]" storage_index="34" tap_mode="classic" trigger_index="34" type="output pin"/>
+            <node data_index="33" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[12]" storage_index="33" tap_mode="classic" trigger_index="33" type="output pin"/>
+            <node data_index="32" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[11]" storage_index="32" tap_mode="classic" trigger_index="32" type="output pin"/>
+            <node data_index="31" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[10]" storage_index="31" tap_mode="classic" trigger_index="31" type="output pin"/>
+            <node data_index="43" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[9]" storage_index="43" tap_mode="classic" trigger_index="43" type="output pin"/>
+            <node data_index="42" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[8]" storage_index="42" tap_mode="classic" trigger_index="42" type="output pin"/>
+            <node data_index="41" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[7]" storage_index="41" tap_mode="classic" trigger_index="41" type="output pin"/>
+            <node data_index="40" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[6]" storage_index="40" tap_mode="classic" trigger_index="40" type="output pin"/>
+            <node data_index="39" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[5]" storage_index="39" tap_mode="classic" trigger_index="39" type="output pin"/>
+            <node data_index="38" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[4]" storage_index="38" tap_mode="classic" trigger_index="38" type="output pin"/>
+            <node data_index="37" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[3]" storage_index="37" tap_mode="classic" trigger_index="37" type="output pin"/>
+            <node data_index="36" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[2]" storage_index="36" tap_mode="classic" trigger_index="36" type="output pin"/>
+            <node data_index="35" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[1]" storage_index="35" tap_mode="classic" trigger_index="35" type="output pin"/>
+            <node data_index="30" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[0]" storage_index="30" tap_mode="classic" trigger_index="30" type="output pin"/>
+          </node>
+          <node data_index="44" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="pwdn_adc" storage_index="44" tap_mode="classic" trigger_index="44" type="output pin"/>
+          <node data_index="45" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="sleep_dac" storage_index="45" tap_mode="classic" trigger_index="45" type="output pin"/>
+        </unified_setup_data_view>
+        <data_view>
+          <bus name="ad_13_14" order="msb_to_lsb" type="input pin">
+            <net data_index="1" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_13_14[1]" storage_index="1" tap_mode="classic" trigger_index="1" type="input pin"/>
+            <net data_index="0" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_13_14[0]" storage_index="0" tap_mode="classic" trigger_index="0" type="input pin"/>
+          </bus>
+          <net data_index="2" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_clk" storage_index="2" tap_mode="classic" trigger_index="2" type="output pin"/>
+          <bus name="ad_out" order="msb_to_lsb" type="input pin">
+            <net data_index="5" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[11]" storage_index="5" tap_mode="classic" trigger_index="5" type="input pin"/>
+            <net data_index="4" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[10]" storage_index="4" tap_mode="classic" trigger_index="4" type="input pin"/>
+            <net data_index="14" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[9]" storage_index="14" tap_mode="classic" trigger_index="14" type="input pin"/>
+            <net data_index="13" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[8]" storage_index="13" tap_mode="classic" trigger_index="13" type="input pin"/>
+            <net data_index="12" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[7]" storage_index="12" tap_mode="classic" trigger_index="12" type="input pin"/>
+            <net data_index="11" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[6]" storage_index="11" tap_mode="classic" trigger_index="11" type="input pin"/>
+            <net data_index="10" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[5]" storage_index="10" tap_mode="classic" trigger_index="10" type="input pin"/>
+            <net data_index="9" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[4]" storage_index="9" tap_mode="classic" trigger_index="9" type="input pin"/>
+            <net data_index="8" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[3]" storage_index="8" tap_mode="classic" trigger_index="8" type="input pin"/>
+            <net data_index="7" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[2]" storage_index="7" tap_mode="classic" trigger_index="7" type="input pin"/>
+            <net data_index="6" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[1]" storage_index="6" tap_mode="classic" trigger_index="6" type="input pin"/>
+            <net data_index="3" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[0]" storage_index="3" tap_mode="classic" trigger_index="3" type="input pin"/>
+          </bus>
+          <bus name="address" order="msb_to_lsb" type="register">
+            <net data_index="17" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[11]" storage_index="17" tap_mode="classic" trigger_index="17" type="register"/>
+            <net data_index="16" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[10]" storage_index="16" tap_mode="classic" trigger_index="16" type="register"/>
+            <net data_index="26" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[9]" storage_index="26" tap_mode="classic" trigger_index="26" type="register"/>
+            <net data_index="25" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[8]" storage_index="25" tap_mode="classic" trigger_index="25" type="register"/>
+            <net data_index="24" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[7]" storage_index="24" tap_mode="classic" trigger_index="24" type="register"/>
+            <net data_index="23" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[6]" storage_index="23" tap_mode="classic" trigger_index="23" type="register"/>
+            <net data_index="22" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[5]" storage_index="22" tap_mode="classic" trigger_index="22" type="register"/>
+            <net data_index="21" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[4]" storage_index="21" tap_mode="classic" trigger_index="21" type="register"/>
+            <net data_index="20" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[3]" storage_index="20" tap_mode="classic" trigger_index="20" type="register"/>
+            <net data_index="19" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[2]" storage_index="19" tap_mode="classic" trigger_index="19" type="register"/>
+            <net data_index="18" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[1]" storage_index="18" tap_mode="classic" trigger_index="18" type="register"/>
+            <net data_index="15" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[0]" storage_index="15" tap_mode="classic" trigger_index="15" type="register"/>
+          </bus>
+          <net data_index="27" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="da_clk" storage_index="27" tap_mode="classic" trigger_index="27" type="output pin"/>
+          <bus name="dac_14_15" order="msb_to_lsb" type="output pin">
+            <net data_index="29" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_14_15[1]" storage_index="29" tap_mode="classic" trigger_index="29" type="output pin"/>
+            <net data_index="28" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_14_15[0]" storage_index="28" tap_mode="classic" trigger_index="28" type="output pin"/>
+          </bus>
+          <bus name="dac_in" order="msb_to_lsb" type="output pin">
+            <net data_index="34" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[13]" storage_index="34" tap_mode="classic" trigger_index="34" type="output pin"/>
+            <net data_index="33" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[12]" storage_index="33" tap_mode="classic" trigger_index="33" type="output pin"/>
+            <net data_index="32" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[11]" storage_index="32" tap_mode="classic" trigger_index="32" type="output pin"/>
+            <net data_index="31" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[10]" storage_index="31" tap_mode="classic" trigger_index="31" type="output pin"/>
+            <net data_index="43" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[9]" storage_index="43" tap_mode="classic" trigger_index="43" type="output pin"/>
+            <net data_index="42" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[8]" storage_index="42" tap_mode="classic" trigger_index="42" type="output pin"/>
+            <net data_index="41" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[7]" storage_index="41" tap_mode="classic" trigger_index="41" type="output pin"/>
+            <net data_index="40" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[6]" storage_index="40" tap_mode="classic" trigger_index="40" type="output pin"/>
+            <net data_index="39" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[5]" storage_index="39" tap_mode="classic" trigger_index="39" type="output pin"/>
+            <net data_index="38" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[4]" storage_index="38" tap_mode="classic" trigger_index="38" type="output pin"/>
+            <net data_index="37" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[3]" storage_index="37" tap_mode="classic" trigger_index="37" type="output pin"/>
+            <net data_index="36" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[2]" storage_index="36" tap_mode="classic" trigger_index="36" type="output pin"/>
+            <net data_index="35" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[1]" storage_index="35" tap_mode="classic" trigger_index="35" type="output pin"/>
+            <net data_index="30" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[0]" storage_index="30" tap_mode="classic" trigger_index="30" type="output pin"/>
+          </bus>
+          <net data_index="44" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="pwdn_adc" storage_index="44" tap_mode="classic" trigger_index="44" type="output pin"/>
+          <net data_index="45" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="sleep_dac" storage_index="45" tap_mode="classic" trigger_index="45" type="output pin"/>
+        </data_view>
+        <setup_view>
+          <bus name="ad_13_14" order="msb_to_lsb" type="input pin">
+            <net data_index="1" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_13_14[1]" storage_index="1" tap_mode="classic" trigger_index="1" type="input pin"/>
+            <net data_index="0" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_13_14[0]" storage_index="0" tap_mode="classic" trigger_index="0" type="input pin"/>
+          </bus>
+          <net data_index="2" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_clk" storage_index="2" tap_mode="classic" trigger_index="2" type="output pin"/>
+          <bus name="ad_out" order="msb_to_lsb" type="input pin">
+            <net data_index="5" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[11]" storage_index="5" tap_mode="classic" trigger_index="5" type="input pin"/>
+            <net data_index="4" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[10]" storage_index="4" tap_mode="classic" trigger_index="4" type="input pin"/>
+            <net data_index="14" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[9]" storage_index="14" tap_mode="classic" trigger_index="14" type="input pin"/>
+            <net data_index="13" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[8]" storage_index="13" tap_mode="classic" trigger_index="13" type="input pin"/>
+            <net data_index="12" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[7]" storage_index="12" tap_mode="classic" trigger_index="12" type="input pin"/>
+            <net data_index="11" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[6]" storage_index="11" tap_mode="classic" trigger_index="11" type="input pin"/>
+            <net data_index="10" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[5]" storage_index="10" tap_mode="classic" trigger_index="10" type="input pin"/>
+            <net data_index="9" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[4]" storage_index="9" tap_mode="classic" trigger_index="9" type="input pin"/>
+            <net data_index="8" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[3]" storage_index="8" tap_mode="classic" trigger_index="8" type="input pin"/>
+            <net data_index="7" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[2]" storage_index="7" tap_mode="classic" trigger_index="7" type="input pin"/>
+            <net data_index="6" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[1]" storage_index="6" tap_mode="classic" trigger_index="6" type="input pin"/>
+            <net data_index="3" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="ad_out[0]" storage_index="3" tap_mode="classic" trigger_index="3" type="input pin"/>
+          </bus>
+          <bus name="address" order="msb_to_lsb" type="register">
+            <net data_index="17" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[11]" storage_index="17" tap_mode="classic" trigger_index="17" type="register"/>
+            <net data_index="16" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[10]" storage_index="16" tap_mode="classic" trigger_index="16" type="register"/>
+            <net data_index="26" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[9]" storage_index="26" tap_mode="classic" trigger_index="26" type="register"/>
+            <net data_index="25" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[8]" storage_index="25" tap_mode="classic" trigger_index="25" type="register"/>
+            <net data_index="24" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[7]" storage_index="24" tap_mode="classic" trigger_index="24" type="register"/>
+            <net data_index="23" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[6]" storage_index="23" tap_mode="classic" trigger_index="23" type="register"/>
+            <net data_index="22" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[5]" storage_index="22" tap_mode="classic" trigger_index="22" type="register"/>
+            <net data_index="21" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[4]" storage_index="21" tap_mode="classic" trigger_index="21" type="register"/>
+            <net data_index="20" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[3]" storage_index="20" tap_mode="classic" trigger_index="20" type="register"/>
+            <net data_index="19" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[2]" storage_index="19" tap_mode="classic" trigger_index="19" type="register"/>
+            <net data_index="18" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[1]" storage_index="18" tap_mode="classic" trigger_index="18" type="register"/>
+            <net data_index="15" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="address[0]" storage_index="15" tap_mode="classic" trigger_index="15" type="register"/>
+          </bus>
+          <net data_index="27" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="da_clk" storage_index="27" tap_mode="classic" trigger_index="27" type="output pin"/>
+          <bus name="dac_14_15" order="msb_to_lsb" type="output pin">
+            <net data_index="29" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_14_15[1]" storage_index="29" tap_mode="classic" trigger_index="29" type="output pin"/>
+            <net data_index="28" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_14_15[0]" storage_index="28" tap_mode="classic" trigger_index="28" type="output pin"/>
+          </bus>
+          <bus name="dac_in" order="msb_to_lsb" type="output pin">
+            <net data_index="34" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[13]" storage_index="34" tap_mode="classic" trigger_index="34" type="output pin"/>
+            <net data_index="33" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[12]" storage_index="33" tap_mode="classic" trigger_index="33" type="output pin"/>
+            <net data_index="32" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[11]" storage_index="32" tap_mode="classic" trigger_index="32" type="output pin"/>
+            <net data_index="31" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[10]" storage_index="31" tap_mode="classic" trigger_index="31" type="output pin"/>
+            <net data_index="43" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[9]" storage_index="43" tap_mode="classic" trigger_index="43" type="output pin"/>
+            <net data_index="42" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[8]" storage_index="42" tap_mode="classic" trigger_index="42" type="output pin"/>
+            <net data_index="41" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[7]" storage_index="41" tap_mode="classic" trigger_index="41" type="output pin"/>
+            <net data_index="40" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[6]" storage_index="40" tap_mode="classic" trigger_index="40" type="output pin"/>
+            <net data_index="39" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[5]" storage_index="39" tap_mode="classic" trigger_index="39" type="output pin"/>
+            <net data_index="38" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[4]" storage_index="38" tap_mode="classic" trigger_index="38" type="output pin"/>
+            <net data_index="37" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[3]" storage_index="37" tap_mode="classic" trigger_index="37" type="output pin"/>
+            <net data_index="36" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[2]" storage_index="36" tap_mode="classic" trigger_index="36" type="output pin"/>
+            <net data_index="35" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[1]" storage_index="35" tap_mode="classic" trigger_index="35" type="output pin"/>
+            <net data_index="30" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="dac_in[0]" storage_index="30" tap_mode="classic" trigger_index="30" type="output pin"/>
+          </bus>
+          <net data_index="44" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="pwdn_adc" storage_index="44" tap_mode="classic" trigger_index="44" type="output pin"/>
+          <net data_index="45" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="sleep_dac" storage_index="45" tap_mode="classic" trigger_index="45" type="output pin"/>
+        </setup_view>
+        <trigger_in_editor/>
+        <trigger_out_editor/>
+      </presentation>
+      <trigger CRC="FF1A96FC" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/05/23 17:35:13  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>1111111111111111111111111111111111111111111111
+            <pwr_up_transitional>1111111111111111111111111111111111111111111111</pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+        <log>
+          <data global_temp="1" name="log: 2019/05/23 17:35:13  #2"/>
+          <extradata/>
+        </log>
+      </trigger>
+    </signal_set>
+    <position_info>
+      <single attribute="active tab" value="1"/>
+    </position_info>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="config widget visible" value="1"/>
+    <single attribute="data log widget visible" value="1"/>
+    <single attribute="hierarchy widget visible" value="1"/>
+    <single attribute="instance widget visible" value="1"/>
+    <single attribute="jtag widget visible" value="1"/>
+    <multi attribute="frame size" size="2" value="1366,705"/>
+    <multi attribute="jtag widget size" size="2" value="334,120"/>
+  </global_info>
+</session>

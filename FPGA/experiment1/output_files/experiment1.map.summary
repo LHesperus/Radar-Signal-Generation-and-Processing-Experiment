@@ -1,15 +1,15 @@
-Analysis & Synthesis Status : Successful - Tue May 21 20:57:24 2019
+Analysis & Synthesis Status : Successful - Tue May 28 15:49:20 2019
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 Revision Name : experiment1
 Top-level Entity Name : experiment1
 Family : Stratix II
 Logic utilization : N/A
-    Combinational ALUTs : 12
-    Dedicated logic registers : 10
-Total registers : 10
+    Combinational ALUTs : 336
+    Dedicated logic registers : 896
+Total registers : 896
 Total pins : 31
 Total virtual pins : 0
-Total block memory bits : 24,576
+Total block memory bits : 192,512
 DSP block 9-bit elements : 0
 Total PLLs : 1
 Total DLLs : 0

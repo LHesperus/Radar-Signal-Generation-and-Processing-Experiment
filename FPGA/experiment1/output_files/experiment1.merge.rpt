@@ -1,0 +1,327 @@
+Partition Merge report for experiment1
+Tue May 28 14:38:34 2019
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Partition Merge Summary
+  3. Partition Merge Netlist Types Used
+  4. Connections to In-System Debugging Instance "auto_signaltap_0"
+  5. Partition Merge Partition Statistics
+  6. Partition Merge Resource Usage Summary
+  7. Partition Merge RAM Summary
+  8. Partition Merge Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Partition Merge Summary                                                          ;
++-------------------------------+--------------------------------------------------+
+; Partition Merge Status        ; Successful - Tue May 28 14:38:34 2019            ;
+; Quartus II 64-Bit Version     ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Revision Name                 ; experiment1                                      ;
+; Top-level Entity Name         ; experiment1                                      ;
+; Family                        ; Stratix II                                       ;
+; Logic utilization             ; 1 %                                              ;
+;     Combinational ALUTs       ; 340 / 72,768 ( < 1 % )                           ;
+;     Dedicated logic registers ; 908 / 72,768 ( 1 % )                             ;
+; Total registers               ; 908                                              ;
+; Total pins                    ; 31 / 759 ( 4 % )                                 ;
+; Total virtual pins            ; 0                                                ;
+; Total block memory bits       ; 196,608 / 4,520,448 ( 4 % )                      ;
+; DSP block 9-bit elements      ; 0 / 384 ( 0 % )                                  ;
+; Total PLLs                    ; 1 / 12 ( 8 % )                                   ;
+; Total DLLs                    ; 0 / 2 ( 0 % )                                    ;
++-------------------------------+--------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Netlist Types Used                                                                                            ;
++--------------------------------+----------------+-------------------+------------------------+--------------------------------+
+; Partition Name                 ; Partition Type ; Netlist Type Used ; Netlist Type Requested ; Partition Contents             ;
++--------------------------------+----------------+-------------------+------------------------+--------------------------------+
+; Top                            ; User-created   ; Post-Fit          ; Post-Fit               ;                                ;
+; sld_hub:auto_hub               ; Auto-generated ; Post-Synthesis    ; Post-Synthesis         ; sld_hub:auto_hub               ;
+; sld_signaltap:auto_signaltap_0 ; Auto-generated ; Post-Synthesis    ; Post-Synthesis         ; sld_signaltap:auto_signaltap_0 ;
+; hard_block:auto_generated_inst ; Auto-generated ; Source File       ; Source File            ; hard_block:auto_generated_inst ;
++--------------------------------+----------------+-------------------+------------------------+--------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Connections to In-System Debugging Instance "auto_signaltap_0"                                                                                                                                                                                                                                                                                                                              ;
++-----------------------------------------+---------------+-----------+----------------+-------------------+--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Name                                    ; Type          ; Status    ; Partition Name ; Netlist Type Used ; Actual Connection                                                                          ; Details                                                                                                                                                                             ;
++-----------------------------------------+---------------+-----------+----------------+-------------------+--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; ad_clk                                  ; pre-synthesis ; connected ; Top            ; post-fit          ; clk100                                                                                     ; N/A                                                                                                                                                                                 ;
+; ad_clk                                  ; pre-synthesis ; connected ; Top            ; post-fit          ; clk100                                                                                     ; N/A                                                                                                                                                                                 ;
+; ad_in[0]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[0]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[0]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[0]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[10]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[10]                                                                                  ; N/A                                                                                                                                                                                 ;
+; ad_in[10]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[10]                                                                                  ; N/A                                                                                                                                                                                 ;
+; ad_in[11]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[11]                                                                                  ; N/A                                                                                                                                                                                 ;
+; ad_in[11]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[11]                                                                                  ; N/A                                                                                                                                                                                 ;
+; ad_in[1]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[1]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[1]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[1]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[2]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[2]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[2]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[2]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[3]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[3]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[3]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[3]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[4]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[4]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[4]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[4]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[5]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[5]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[5]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[5]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[6]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[6]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[6]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[6]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[7]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[7]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[7]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[7]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[8]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[8]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[8]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[8]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[9]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[9]                                                                                   ; N/A                                                                                                                                                                                 ;
+; ad_in[9]                                ; pre-synthesis ; connected ; Top            ; post-fit          ; ad_in[9]                                                                                   ; N/A                                                                                                                                                                                 ;
+; address[0]                              ; pre-synthesis ; missing   ; Top            ; post-fit          ; GND                                                                                        ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance.                      ;
+; address[0]                              ; pre-synthesis ; missing   ; Top            ; post-fit          ; GND                                                                                        ; The name does not exist in your design or refers to an invalid hierarchy or bus element.  You may have modified your design after creating the debug instance.                      ;
+; address[10]                             ; pre-synthesis ; connected ; Top            ; post-fit          ; address[10]                                                                                ; N/A                                                                                                                                                                                 ;
+; address[10]                             ; pre-synthesis ; connected ; Top            ; post-fit          ; address[10]                                                                                ; N/A                                                                                                                                                                                 ;
+; address[1]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; clk100                                                                                     ; N/A                                                                                                                                                                                 ;
+; address[1]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; clk100                                                                                     ; N/A                                                                                                                                                                                 ;
+; address[2]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[2]                                                                                 ; N/A                                                                                                                                                                                 ;
+; address[2]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[2]                                                                                 ; N/A                                                                                                                                                                                 ;
+; address[3]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[3]                                                                                 ; N/A                                                                                                                                                                                 ;
+; address[3]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[3]                                                                                 ; N/A                                                                                                                                                                                 ;
+; address[4]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[4]                                                                                 ; N/A                                                                                                                                                                                 ;
+; address[4]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[4]                                                                                 ; N/A                                                                                                                                                                                 ;
+; address[5]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[5]                                                                                 ; N/A                                                                                                                                                                                 ;
+; address[5]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[5]                                                                                 ; N/A                                                                                                                                                                                 ;
+; address[6]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[6]                                                                                 ; N/A                                                                                                                                                                                 ;
+; address[6]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[6]                                                                                 ; N/A                                                                                                                                                                                 ;
+; address[7]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[7]                                                                                 ; N/A                                                                                                                                                                                 ;
+; address[7]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[7]                                                                                 ; N/A                                                                                                                                                                                 ;
+; address[8]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[8]                                                                                 ; N/A                                                                                                                                                                                 ;
+; address[8]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[8]                                                                                 ; N/A                                                                                                                                                                                 ;
+; address[9]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[9]                                                                                 ; N/A                                                                                                                                                                                 ;
+; address[9]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; address[9]                                                                                 ; N/A                                                                                                                                                                                 ;
+; clk100                                  ; pre-synthesis ; connected ; Top            ; post-fit          ; clk100                                                                                     ; N/A                                                                                                                                                                                 ;
+; clk100                                  ; pre-synthesis ; connected ; Top            ; post-fit          ; clk100                                                                                     ; N/A                                                                                                                                                                                 ;
+; da_clk                                  ; pre-synthesis ; connected ; Top            ; post-fit          ; clk100                                                                                     ; N/A                                                                                                                                                                                 ;
+; da_clk                                  ; pre-synthesis ; connected ; Top            ; post-fit          ; clk100                                                                                     ; N/A                                                                                                                                                                                 ;
+; da_out[0]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[0]  ; N/A                                                                                                                                                                                 ;
+; da_out[0]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[0]  ; N/A                                                                                                                                                                                 ;
+; da_out[10]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[10] ; N/A                                                                                                                                                                                 ;
+; da_out[10]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[10] ; N/A                                                                                                                                                                                 ;
+; da_out[11]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[11] ; N/A                                                                                                                                                                                 ;
+; da_out[11]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[11] ; N/A                                                                                                                                                                                 ;
+; da_out[12]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; QIC_SIGNALTAP_GND                                                                          ; N/A                                                                                                                                                                                 ;
+; da_out[12]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; QIC_SIGNALTAP_GND                                                                          ; N/A                                                                                                                                                                                 ;
+; da_out[13]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; QIC_SIGNALTAP_GND                                                                          ; N/A                                                                                                                                                                                 ;
+; da_out[13]                              ; pre-synthesis ; connected ; Top            ; post-fit          ; QIC_SIGNALTAP_GND                                                                          ; N/A                                                                                                                                                                                 ;
+; da_out[1]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[1]  ; N/A                                                                                                                                                                                 ;
+; da_out[1]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[1]  ; N/A                                                                                                                                                                                 ;
+; da_out[2]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[2]  ; N/A                                                                                                                                                                                 ;
+; da_out[2]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[2]  ; N/A                                                                                                                                                                                 ;
+; da_out[3]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[3]  ; N/A                                                                                                                                                                                 ;
+; da_out[3]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[3]  ; N/A                                                                                                                                                                                 ;
+; da_out[4]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[4]  ; N/A                                                                                                                                                                                 ;
+; da_out[4]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[4]  ; N/A                                                                                                                                                                                 ;
+; da_out[5]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[5]  ; N/A                                                                                                                                                                                 ;
+; da_out[5]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[5]  ; N/A                                                                                                                                                                                 ;
+; da_out[6]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[6]  ; N/A                                                                                                                                                                                 ;
+; da_out[6]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[6]  ; N/A                                                                                                                                                                                 ;
+; da_out[7]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[7]  ; N/A                                                                                                                                                                                 ;
+; da_out[7]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[7]  ; N/A                                                                                                                                                                                 ;
+; da_out[8]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[8]  ; N/A                                                                                                                                                                                 ;
+; da_out[8]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[8]  ; N/A                                                                                                                                                                                 ;
+; da_out[9]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[9]  ; N/A                                                                                                                                                                                 ;
+; da_out[9]                               ; pre-synthesis ; connected ; Top            ; post-fit          ; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|q_a[9]  ; N/A                                                                                                                                                                                 ;
+; pwdn_dac                                ; pre-synthesis ; connected ; Top            ; post-fit          ; QIC_SIGNALTAP_GND                                                                          ; N/A                                                                                                                                                                                 ;
+; pwdn_dac                                ; pre-synthesis ; connected ; Top            ; post-fit          ; QIC_SIGNALTAP_GND                                                                          ; N/A                                                                                                                                                                                 ;
+; sleep_dac                               ; pre-synthesis ; connected ; Top            ; post-fit          ; QIC_SIGNALTAP_GND                                                                          ; N/A                                                                                                                                                                                 ;
+; sleep_dac                               ; pre-synthesis ; connected ; Top            ; post-fit          ; QIC_SIGNALTAP_GND                                                                          ; N/A                                                                                                                                                                                 ;
+; pll:pll200M|altpll:altpll_component|pll ; post-fitting  ; missing   ; Top            ; post-fit          ; GND                                                                                        ; The name was present in your design during Analysis & Elaboration but was optimized away earlier in the flow.  You should tap it as a pre-synthesis node or preserve it explicitly. ;
++-----------------------------------------+---------------+-----------+----------------+-------------------+--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Partition Statistics                                                                                                                          ;
++-----------------------------------------------+----------------------+----------------------+--------------------------------+--------------------------------+
+; Statistic                                     ; Top                  ; sld_hub:auto_hub     ; sld_signaltap:auto_signaltap_0 ; hard_block:auto_generated_inst ;
++-----------------------------------------------+----------------------+----------------------+--------------------------------+--------------------------------+
+; Estimated ALUTs Used                          ; 14 / 72768 ( < 1 % ) ; 96 / 72768 ( < 1 % ) ; 230 / 72768 ( < 1 % )          ; 0 / 72768 ( 0 % )              ;
+; Dedicated logic registers                     ; 10 / 72768 ( < 1 % ) ; 86 / 72768 ( < 1 % ) ; 812 / 72768 ( 1 % )            ; 0 / 72768 ( 0 % )              ;
+;                                               ;                      ;                      ;                                ;                                ;
+; Estimated ALUTs Unavailable                   ; 0                    ; 1                    ; 0                              ; 0                              ;
+;                                               ;                      ;                      ;                                ;                                ;
+; Total combinational functions                 ; 14                   ; 96                   ; 230                            ; 0                              ;
+; Combinational ALUT usage by number of inputs  ;                      ;                      ;                                ;                                ;
+;     -- 7 input functions                      ; 0                    ; 1                    ; 0                              ; 0                              ;
+;     -- 6 input functions                      ; 0                    ; 14                   ; 47                             ; 0                              ;
+;     -- 5 input functions                      ; 0                    ; 18                   ; 61                             ; 0                              ;
+;     -- 4 input functions                      ; 0                    ; 10                   ; 18                             ; 0                              ;
+;     -- <=3 input functions                    ; 14                   ; 53                   ; 104                            ; 0                              ;
+;                                               ;                      ;                      ;                                ;                                ;
+; Combinational ALUTs by mode                   ;                      ;                      ;                                ;                                ;
+;     -- normal mode                            ; 4                    ; 85                   ; 166                            ; 0                              ;
+;     -- extended LUT mode                      ; 0                    ; 1                    ; 0                              ; 0                              ;
+;     -- arithmetic mode                        ; 10                   ; 10                   ; 64                             ; 0                              ;
+;     -- shared arithmetic mode                 ; 0                    ; 0                    ; 0                              ; 0                              ;
+;                                               ;                      ;                      ;                                ;                                ;
+; Estimated ALUT/register pairs used            ; 14                   ; 120                  ; 899                            ; 0                              ;
+;                                               ;                      ;                      ;                                ;                                ;
+; Total registers                               ; 10                   ; 86                   ; 812                            ; 0                              ;
+;     -- Dedicated logic registers              ; 10 / 72768 ( < 1 % ) ; 86 / 72768 ( < 1 % ) ; 812 / 72768 ( 1 % )            ; 0 / 72768 ( 0 % )              ;
+;                                               ;                      ;                      ;                                ;                                ;
+; Estimated ALMs:  partially or completely used ; 8 / 36384 ( < 1 % )  ; 61 / 36384 ( < 1 % ) ; 471 / 36384 ( 1 % )            ; 0 / 36384 ( 0 % )              ;
+;                                               ;                      ;                      ;                                ;                                ;
+; Virtual pins                                  ; 0                    ; 0                    ; 0                              ; 0                              ;
+; I/O pins                                      ; 31                   ; 0                    ; 0                              ; 0                              ;
+; DSP block 9-bit elements                      ; 0 / 384 ( 0 % )      ; 0 / 384 ( 0 % )      ; 0 / 384 ( 0 % )                ; 0 / 384 ( 0 % )                ;
+; Total block memory bits                       ; 24576                ; 0                    ; 172032                         ; 0                              ;
+; Total block memory implementation bits        ; 27648                ; 0                    ; 193536                         ; 0                              ;
+; JTAG                                          ; 1 / 1 ( 100 % )      ; 0 / 1 ( 0 % )        ; 0 / 1 ( 0 % )                  ; 0 / 1 ( 0 % )                  ;
+; PLL                                           ; 0 / 12 ( 0 % )       ; 0 / 12 ( 0 % )       ; 0 / 12 ( 0 % )                 ; 1 / 12 ( 8 % )                 ;
+; M4K                                           ; 6 / 408 ( 1 % )      ; 0 / 408 ( 0 % )      ; 42 / 408 ( 10 % )              ; 0 / 408 ( 0 % )                ;
+;                                               ;                      ;                      ;                                ;                                ;
+; Connections                                   ;                      ;                      ;                                ;                                ;
+;     -- Input Connections                      ; 17                   ; 127                  ; 1196                           ; 1                              ;
+;     -- Registered Input Connections           ; 16                   ; 96                   ; 924                            ; 0                              ;
+;     -- Output Connections                     ; 1103                 ; 221                  ; 1                              ; 16                             ;
+;     -- Registered Output Connections          ; 50                   ; 220                  ; 0                              ; 0                              ;
+;                                               ;                      ;                      ;                                ;                                ;
+; Internal Connections                          ;                      ;                      ;                                ;                                ;
+;     -- Total Connections                      ; 1236                 ; 833                  ; 4719                           ; 17                             ;
+;     -- Registered Connections                 ; 151                  ; 649                  ; 3536                           ; 0                              ;
+;                                               ;                      ;                      ;                                ;                                ;
+; External Connections                          ;                      ;                      ;                                ;                                ;
+;     -- Top                                    ; 0                    ; 119                  ; 984                            ; 17                             ;
+;     -- sld_hub:auto_hub                       ; 119                  ; 16                   ; 213                            ; 0                              ;
+;     -- sld_signaltap:auto_signaltap_0         ; 984                  ; 213                  ; 0                              ; 0                              ;
+;     -- hard_block:auto_generated_inst         ; 17                   ; 0                    ; 0                              ; 0                              ;
+;                                               ;                      ;                      ;                                ;                                ;
+; Partition Interface                           ;                      ;                      ;                                ;                                ;
+;     -- Input Ports                            ; 17                   ; 19                   ; 141                            ; 1                              ;
+;     -- Output Ports                           ; 30                   ; 37                   ; 94                             ; 1                              ;
+;     -- Bidir Ports                            ; 0                    ; 0                    ; 0                              ; 0                              ;
+;                                               ;                      ;                      ;                                ;                                ;
+; Registered Ports                              ;                      ;                      ;                                ;                                ;
+;     -- Registered Input Ports                 ; 0                    ; 4                    ; 89                             ; 0                              ;
+;     -- Registered Output Ports                ; 0                    ; 26                   ; 85                             ; 0                              ;
+;                                               ;                      ;                      ;                                ;                                ;
+; Port Connectivity                             ;                      ;                      ;                                ;                                ;
+;     -- Input Ports driven by GND              ; 0                    ; 1                    ; 11                             ; 0                              ;
+;     -- Output Ports driven by GND             ; 0                    ; 1                    ; 0                              ; 0                              ;
+;     -- Input Ports driven by VCC              ; 0                    ; 0                    ; 0                              ; 0                              ;
+;     -- Output Ports driven by VCC             ; 0                    ; 0                    ; 0                              ; 0                              ;
+;     -- Input Ports with no Source             ; 0                    ; 1                    ; 35                             ; 0                              ;
+;     -- Output Ports with no Source            ; 0                    ; 0                    ; 0                              ; 0                              ;
+;     -- Input Ports with no Fanout             ; 0                    ; 2                    ; 40                             ; 0                              ;
+;     -- Output Ports with no Fanout            ; 0                    ; 15                   ; 85                             ; 0                              ;
++-----------------------------------------------+----------------------+----------------------+--------------------------------+--------------------------------+
+Note: Resource usage numbers presented for Partitions containing post-synthesis logic are estimates.  For Partitions containing post-fit logic, resource usage numbers are accurate based on previous placement information.  Actual Fitter results may vary depending on current Fitter Preservation Level assignments.
+
+
++----------------------------------------------------------------------+
+; Partition Merge Resource Usage Summary                               ;
++-----------------------------------------------+----------------------+
+; Resource                                      ; Usage                ;
++-----------------------------------------------+----------------------+
+; Estimated ALUTs Used                          ; 340                  ;
+; Dedicated logic registers                     ; 908                  ;
+;                                               ;                      ;
+; Estimated ALUTs Unavailable                   ; 1                    ;
+;                                               ;                      ;
+; Total combinational functions                 ; 340                  ;
+; Combinational ALUT usage by number of inputs  ;                      ;
+;     -- 7 input functions                      ; 1                    ;
+;     -- 6 input functions                      ; 61                   ;
+;     -- 5 input functions                      ; 79                   ;
+;     -- 4 input functions                      ; 28                   ;
+;     -- <=3 input functions                    ; 171                  ;
+;                                               ;                      ;
+; Combinational ALUTs by mode                   ;                      ;
+;     -- normal mode                            ; 255                  ;
+;     -- extended LUT mode                      ; 1                    ;
+;     -- arithmetic mode                        ; 84                   ;
+;     -- shared arithmetic mode                 ; 0                    ;
+;                                               ;                      ;
+; Estimated ALUT/register pairs used            ; 983                  ;
+;                                               ;                      ;
+; Total registers                               ; 908                  ;
+;     -- Dedicated logic registers              ; 908                  ;
+;     -- I/O registers                          ; 0                    ;
+;                                               ;                      ;
+; Estimated ALMs:  partially or completely used ; 492 / 36,384 ( 1 % ) ;
+;                                               ;                      ;
+; I/O pins                                      ; 31                   ;
+; Total block memory bits                       ; 196608               ;
+; DSP block 9-bit elements                      ; 0                    ;
+; Total PLLs                                    ; 1                    ;
+;     -- PLLs                                   ; 1                    ;
+;                                               ;                      ;
+; SERDES transmitters                           ; 0 / 118 ( 0 % )      ;
+; SERDES receivers                              ; 0 / 118 ( 0 % )      ;
+; Maximum fan-out node                          ; ~GND                 ;
+; Maximum fan-out                               ; 540                  ;
+; Total fan-out                                 ; 5419                 ;
+; Average fan-out                               ; 4.06                 ;
++-----------------------------------------------+----------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge RAM Summary                                                                                                                                                                                                                                                                                         ;
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+--------------+
+; Name                                                                                                                                                                                                  ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size   ; MIF          ;
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+--------------+
+; sin_2048:sin_2048_1|altsyncram:altsyncram_component|altsyncram_l871:auto_generated|ALTSYNCRAM                                                                                                         ; AUTO ; ROM              ; 2048         ; 12           ; --           ; --           ; 24576  ; sin_2048.mif ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram|altsyncram_kt14:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 4096         ; 42           ; 4096         ; 42           ; 172032 ; None         ;
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+--------------+
+
+
++--------------------------+
+; Partition Merge Messages ;
++--------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Partition Merge
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+    Info: Processing started: Tue May 28 14:38:30 2019
+Info: Command: quartus_cdb --read_settings_files=off --write_settings_files=off experiment1 -c experiment1 --merge=on
+Info (35006): Using previously generated Fitter netlist for partition "Top"
+Info (35007): Using synthesis netlist for partition "sld_hub:auto_hub"
+Info (35007): Using synthesis netlist for partition "sld_signaltap:auto_signaltap_0"
+Critical Warning (35025): Partially connected in-system debug instance "auto_signaltap_0" to 82 of its 85 required data inputs, trigger inputs, acquisition clocks, and dynamic pins.  There were 0 illegal, 0 inaccessible, and 3 missing sources or connections.
+Info (35002): Resolved and merged 3 partition(s)
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 1137 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 17 input pins
+    Info (21059): Implemented 19 output pins
+    Info (21061): Implemented 1050 logic cells
+    Info (21064): Implemented 48 RAM segments
+    Info (21065): Implemented 1 PLLs
+Info: Quartus II 64-Bit Partition Merge was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4678 megabytes
+    Info: Processing ended: Tue May 28 14:38:34 2019
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:02
+
+

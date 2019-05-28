@@ -30,20 +30,20 @@ assign ad_clk=clk100;
 
 sin_2048 sin_2048_1(
 .address (address),
-.clock   (clk_200),
+.clock   (clk100),
 .q       (da_out_temp)
 );
 
 
-assign da_out={2'b0,da_out_temp};
-always@(posedge clk_200)
+assign da_out={2'b0,~da_out_temp[11],da_out_temp[10:0]};
+always@(posedge clk100)
 begin
-	address<=address+11'd102;
+	address<=address+11'd204;
 end
 
 
 reg [11:0]ad_in_temp;
-always@(posedge clk_200)
+always@(posedge clk100)
 begin
 	ad_in_temp<=ad_in;
 end

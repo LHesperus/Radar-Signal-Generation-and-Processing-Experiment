@@ -1,0 +1,6 @@
+set tool_name "ModelSim (Verilog)"
+set corner_file_list {
+	{{"Slow -4 1.1V 100 Model"} {Receiver_4_1100mv_100c_slow.vo Receiver_4_1100mv_100c_v_slow.sdo}}
+	{{"Slow -4 1.1V -40 Model"} {Receiver_4_1100mv_-40c_slow.vo Receiver_4_1100mv_-40c_v_slow.sdo}}
+	{{"Fast -M 1.1V -40 Model"} {Receiver_min_1100mv_-40c_fast.vo Receiver_min_1100mv_-40c_v_fast.sdo}}
+}
