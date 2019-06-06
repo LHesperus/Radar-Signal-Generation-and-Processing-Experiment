@@ -1,0 +1,18 @@
+Fitter Status : Successful - Thu May 30 09:05:19 2019
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : Receiver
+Top-level Entity Name : Receiver
+Family : Stratix III
+Device : EP3SE110F1152I4
+Timing Models : Final
+Logic utilization : 19 %
+    Combinational ALUTs : 14,180 / 85,200 ( 17 % )
+    Memory ALUTs : 0 / 42,600 ( 0 % )
+    Dedicated logic registers : 4,641 / 85,200 ( 5 % )
+Total registers : 4641
+Total pins : 156 / 744 ( 21 % )
+Total virtual pins : 0
+Total block memory bits : 2,441,216 / 8,248,320 ( 30 % )
+DSP block 18-bit elements : 428 / 896 ( 48 % )
+Total PLLs : 1 / 8 ( 13 % )
+Total DLLs : 0 / 4 ( 0 % )

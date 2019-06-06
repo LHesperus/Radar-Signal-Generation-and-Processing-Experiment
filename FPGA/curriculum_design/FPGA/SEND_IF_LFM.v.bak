@@ -1,0 +1,13 @@
+module SEND_IF_LFM(
+input
+
+)
+
+
+always@(posedge clk_100) begin address<=address+1'b1; end
+IF_LFM ECHO(
+.address(address),
+.clock(clk_100),
+.q(echo_signal)
+);
+endmodule
